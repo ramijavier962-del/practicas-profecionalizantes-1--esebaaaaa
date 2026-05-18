@@ -8,7 +8,29 @@ portada{
     width: 100%;
    
 }
+
 header{
+background-color: aliceblue;
+color: blue;
+}
+header h1{
     text-align: center;
     font-size: 2em;
+}
+main{
+    background-color: white;
+    color: blue;
+}
+main h2{
+text-align: center;
+font-size: 1em;
+}
+main ul{
+    background-color: lightblue;
+    color: black;
+   text-align: right; 
+}
+.imgmain{
+    width: 100%;
+    height: auto;
 }
