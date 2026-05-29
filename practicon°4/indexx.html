@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/elstilo.css ">
+    <link rel="stylesheet" href="img/pichulos venta de stock.png">
+<title>Sistema Lospichulos</title>
+</head>
+
+<body>
+ <!-- MENU -->
+
+  <nav class="sidebar">
+
+    <header class="logo">
+      <h1>lospichulos</h1>
+      <p>Stock de ropa</p>
+    </header>
+
+    <ul class="menu">
+      <li>Inicio</li>
+      <li> Registrar venta</li>
+      <li> Consultar stock</li>
+      <li> Registrar prendas</li>
+      <li> Reportes</li>
+      <li> Configuración</li>
+    </ul>
+
+  </nav>
+
+  <!-- CONTENIDO -->
+
+  <main class="main">
+
+    <header class="top">
+      <h2>Panel principal</h2>
+
+      <button class="btn">
+        Nueva venta
+      </button>
+    </header>
+
+    <!-- CARDS -->
+
+    <section class="cards">
+
+      <article class="card">
+        <h3>Ventas del día</h3>
+        <p>$125.000</p>
+      </article>
+
+      <article class="card">
+        <h3>Productos vendidos</h3>
+        <p>48</p>
+      </article>
+
+      <article class="card">
+        <h3>Stock bajo</h3>
+        <p>7</p>
+      </article>
+
+    </section>
+
+    <!-- TABLA -->
+
+    <section class="table-box">
+
+      <header>
+        <h3>Últimas prendas registradas</h3>
+      </header>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Prenda</th>
+            <th>Talle</th>
+            <th>Precio</th>
+            <th>Stock</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>Remera Oversize</td>
+            <td>XXL</td>
+            <td>$15.000</td>
+            <td>12</td>
+          </tr>
+
+          <tr>
+            <td>Buzo Negro</td>
+            <td>L</td>
+            <td>$28.000</td>
+            <td>5</td>
+          </tr>
+
+          <tr>
+            <td>Jean Cargo</td>
+            <td>42</td>
+            <td>$35.000</td>
+            <td>8</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </section>
+
+    <!-- FORMULARIO -->
+
+    <section class="table-box">
+
+      <header>
+        <h3>Registrar nueva prenda</h3>
+      </header>
+
+      <br>
+
+      <form>
+
+        <label>Nombre de la prenda</label>
+        <input type="text"
+        placeholder="Ej: Remera Oversize"
+        required>
+
+        <label>Talle</label>
+        <input type="text"
+        placeholder="Ej: M"
+        required>
+
+        <label>Precio</label>
+        <input type="number"
+        placeholder="Ej: 15000"
+        required>
+
+        <label>Stock</label>
+        <input type="number"
+        placeholder="Ej: 10"
+        required>
+
+        <button class="btn" type="submit">
+          Guardar prenda
+        </button>
+
+      </form>
+
+    </section>
+
+    <footer>
+      <p>Sistema Lospichulos - Proyecto estudiantil</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
