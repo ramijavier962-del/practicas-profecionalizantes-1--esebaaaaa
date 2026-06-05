@@ -10,7 +10,7 @@
 
     body{
       display: flex;
-      background: #f4f4f4;
+      background-image: url('../Img/pngfondo.png');
     }
 
     /* MENU */
@@ -19,7 +19,7 @@
       width: 240px;
       height: 100vh;
       background: #1f1f1f;
-      color: white;
+      color: rgb(255, 255, 255);
       padding: 20px;
     }
 
@@ -98,15 +98,15 @@
     }
 
     .card{
-      background: white;
+      background: rgba(255, 255, 255, 0.658);
       padding: 25px;
       border-radius: 15px;
-      box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.479);
     }
 
     .card h3{
       margin-bottom: 10px;
-      color: #555;
+      color: #000000;
     }
 
     .card p{
@@ -118,7 +118,7 @@
     /* TABLA */
 
     .table-box{
-      background: white;
+      background: rgba(255, 255, 255, 0.658);
       padding: 20px;
       border-radius: 15px;
       box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
