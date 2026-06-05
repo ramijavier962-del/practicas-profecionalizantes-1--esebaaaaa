@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/elstilo.css ">
-    <link rel="stylesheet" href="img/pichulos venta de stock.png">
+    <link rel="icon" href="img/pichulos venta de stock.png">
+    <link rel="stylesheet" href="css/video.css">
     
 <title>Sistema Lospichulos</title>
 </head>
 
 <body>
- <!-- Menu -->
+   <video autoplay muted loop id="video-fondo">
+      <source src="video/video mano ropa.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
 
   <nav class="sidebar">
 
     <header class="logo">
+      <img src="img/pichulita.png" alt="imagen logo">
       <h1>lospichulos</h1>
       <p>Stock de ropa</p>
     </header>
 
     <ul class="menu">
-      <li>Inicio</li>
-      <li> Registrar venta</li>
-      <li> Consultar stock</li>
-      <li> Registrar prendas</li>
-      <li> Reportes</li>
-      <li> Configuración</li>
+      <a href="indexx.html"><li>Inicio</li></a>
+      <a href="ventas.html"><li> Registrar venta</li></a>
+      <a href="consultarStock.html"><li> Consultar stock</li></a>
+      <a href="regiprendas.html"><li> Registrar prendas</li></a>
+      <a href="reporte.html"><li> Reportes</li></a>
+      <a href="confi.html"><li> Configuración</li></a>
     </ul>
 
   </nav>
 
-  <!-- Contenido del sistema -->
+ 
 
   <main class="main">
 
@@ -38,13 +44,13 @@
       <h2>Panel principal</h2>
 
     </header>
-     <!-- Formulario -->
+     
 
     <section class="table-box">
 
 
       <header>
-        <h3>Registrar nueva prenda</h3>
+        <h3>Registrar nueva venta</h3>
       </header>
 
 
@@ -87,84 +93,6 @@
 
 
     </section>
-
-
-    <footer>
-      <p>Sistema Lospichulos - Proyecto estudiantil</p>
-    </footer>
-
-
-<!--    
-    
-
-    <section class="cards">
-
-      <article class="card">
-        <h3>Ventas del día</h3>
-        <p>$125.000</p>
-      </article>
-
-      <article class="card">
-        <h3>Productos vendidos</h3>
-        <p>48</p>
-      </article>
-
-      <article class="card">
-        <h3>Stock bajo</h3>
-        <p>7</p>
-      </article>
-
-    </section>
-
-    
-<section class="table-box">
-
-<header>
-   <h3>Últimas prendas registradas</h3>
-   </header>
-
-<table>
-
-<thead>
-    <tr>
-  <th>Prenda</th>
-  <th>Talle</th>
-  <th>Precio</th>
-    <th>Stock</th>
-    </tr>
-    </thead>
-
-  <tbody>
-
-  <tr>
-
- <td>Remera Oversize</td>
- <td>XXL</td>
-  <td>$15.000</td>
- <td>12</td>
- </tr>
-
- <tr>
- <td>Buzo Negro</td>
-  <td>L</td>
- <td>$28.000</td>
- <td>5</td>
- </tr>
-
-  <tr>
-  <td>Jean Cargo</td>
- <td>42</td>
-  <td>$35.000</td>
-   <td>8</td>
- </tr>
-
- </tbody>
-
-  </table>
-
-    </section>
-
-   -->
   </main>
 
 </body>

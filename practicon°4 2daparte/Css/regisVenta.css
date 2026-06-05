@@ -1,6 +1,6 @@
  body{
       height: 100vh;
-      background-image: url('../Img/pngfondo.png');
+      
       background-size: cover;
       text-align: center;
       display: flex;
@@ -19,6 +19,11 @@
 
     .logo{
       margin-bottom: 30px;
+    }
+    .logo img{
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
     }
 
     .logo p{
@@ -83,6 +88,10 @@
     .icon img{
       width: 200px;
       
+    }
+    a{
+      text-decoration: none;
+      color: inherit;
     }
     
 /* los iphones para ajustar */

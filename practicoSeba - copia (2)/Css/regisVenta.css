@@ -1,8 +1,6 @@
- 
- 
  body{
       height: 100vh;
-      
+      background-image: url('../Img/pngfondo.png');
       background-size: cover;
       text-align: center;
       display: flex;

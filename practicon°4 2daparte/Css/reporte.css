@@ -1,6 +1,4 @@
-
-
-   
+ 
     *{
       margin: 0;
       padding: 0;
@@ -10,11 +8,9 @@
 
     body{
       display: flex;
-   
+      
     }
-
-   
-
+    
     .sidebar{
       width: 240px;
       height: 100vh;
@@ -26,7 +22,6 @@
     .logo{
       text-align: center;
       margin-bottom: 40px;
-      
     }
     .logo img{
       width: 100px;
@@ -66,7 +61,7 @@
       color: inherit;
     }
 
-   
+  
 
     .main{
       flex: 1;
@@ -113,7 +108,12 @@
       border-radius: 15px;
       box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.479);
     }
-
+    .cardd{
+      background: #f5c400;;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.479);
+    }
     .card h3{
       margin-bottom: 10px;
       color: #000000;
@@ -152,19 +152,33 @@
       border-bottom: 1px solid #ddd;
     }
 
-    
+/* los iphones para ajustar */
+@media (max-width: 768px){
 
-    form input{
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
+  .login-box{
+    width: 90%;
+    padding: 25px;
+  }
 
-    footer{
-      text-align: center;
-      margin-top: 20px;
-      color: #666;
-    }
+  .icon img{
+    width: 110px;
+  }
+
+  .logo h1{
+    font-size: 30px;
+  }
+
+  .logo p{
+    font-size: 13px;
+  }
+
+  input{
+    padding: 10px;
+  }
+
+  .btn{
+    padding: 10px;
+  }
+
+}
+

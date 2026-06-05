@@ -4,41 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/elstilo.css ">
-    <link rel="icon" href="img/pichulos venta de stock.png">
-    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="img/pichulos venta de stock.png">
     
 <title>Sistema Lospichulos</title>
 </head>
 
 <body>
-  <video autoplay muted loop id="video-fondo">
-      <source src="video/video mano ropa.mp4" type="video/mp4">
-  </video>
-
-  <div class="overlay"></div>
+ <!-- Menu -->
 
   <nav class="sidebar">
 
     <header class="logo">
-    
-      <img src="img/pichulita.png" alt="imagen logo">
-    
       <h1>lospichulos</h1>
       <p>Stock de ropa</p>
     </header>
 
     <ul class="menu">
-      <a href="indexx.html"><li>Inicio</li></a>
-      <a href="ventas.html"><li> Registrar venta</li></a>
-      <a href="consultarStock.html"><li> Consultar stock</li></a>
-      <a href="regiprendas.html"><li> Registrar prendas</li></a>
-      <a href="reporte.html"><li> Reportes</li></a>
-      <a href="confi.html"><li> Configuración</li></a>
+      <li>Inicio</li>
+      <li> Registrar venta</li>
+      <li> Consultar stock</li>
+      <li> Registrar prendas</li>
+      <li> Reportes</li>
+      <li> Configuración</li>
     </ul>
 
   </nav>
 
-  
+  <!-- Contenido del sistema -->
 
   <main class="main">
 
@@ -46,8 +38,64 @@
       <h2>Panel principal</h2>
 
     </header>
+     <!-- Formulario -->
 
-  
+    <section class="table-box">
+
+
+      <header>
+        <h3>Registrar nueva prenda</h3>
+      </header>
+
+
+      <br>
+
+
+      <form>
+
+
+        <label>Nombre de la prenda</label>
+        <input type="text"
+        placeholder="Ej: 30 Pantalones"
+        required>
+
+
+        <label>Talles</label>
+        <input type="text"
+        placeholder="Ej: M"
+        required>
+
+
+        <label>Precio</label>
+        <input type="number"
+        placeholder="Ej: 15000"
+        required>
+
+
+        <label>Precio Total</label>
+        <input type="number"
+        placeholder="Ej:$ 10600"
+        required>
+
+
+        <button class="btn" type="submit">
+          Guardar Venta
+        </button>
+       
+
+      </form>
+
+
+    </section>
+
+
+    <footer >
+      <p>Sistema LOS PICHULOS STOCK DE ROPA - PROYECTO ESTUDIANTIL</p>
+    </footer>
+
+
+<!--    
+    
 
     <section class="cards">
 
@@ -68,6 +116,7 @@
 
     </section>
 
+    
 <section class="table-box">
 
 <header>
@@ -107,7 +156,6 @@
  <td>42</td>
   <td>$35.000</td>
    <td>8</td>
- </tr>
 
  </tbody>
 
@@ -115,7 +163,7 @@
 
     </section>
 
-   
+   -->
   </main>
 
 </body>

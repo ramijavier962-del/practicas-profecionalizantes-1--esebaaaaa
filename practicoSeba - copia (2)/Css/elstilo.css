@@ -10,10 +10,10 @@
 
     body{
       display: flex;
-   
+      background-image: url('../Img/pngfondo.png');
     }
 
-   
+    /* MENU */
 
     .sidebar{
       width: 240px;
@@ -26,12 +26,6 @@
     .logo{
       text-align: center;
       margin-bottom: 40px;
-      
-    }
-    .logo img{
-      width: 100px;
-      height: auto;
-      margin-bottom: 10px;
     }
 
     .logo h1{
@@ -61,12 +55,8 @@
       background: #f5c400;
       color: black;
     }
-  a{
-      text-decoration: none;
-      color: inherit;
-    }
 
-   
+    /* CONTENIDO */
 
     .main{
       flex: 1;
@@ -98,7 +88,7 @@
       background: #ddb000;
     }
 
-  
+    /* CARDS */
 
     .cards{
       display: grid;
@@ -125,7 +115,7 @@
       font-weight: bold;
     }
 
-    
+    /* TABLA */
 
     .table-box{
       background: rgba(255, 255, 255, 0.658);
@@ -152,7 +142,7 @@
       border-bottom: 1px solid #ddd;
     }
 
-    
+    /* FORMULARIO */
 
     form input{
       width: 100%;

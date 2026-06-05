@@ -1,8 +1,8 @@
  
- 
+ /* Estilos CSS para el diseño de la página de inicio de sesión */
  body{
       height: 100vh;
-      
+      background-image: url('../Img/pngfondo.png');
       background-size: cover;
       text-align: center;
       display: flex;

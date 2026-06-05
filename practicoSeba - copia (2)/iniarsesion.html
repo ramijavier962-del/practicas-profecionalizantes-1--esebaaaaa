@@ -1,9 +1,70 @@
- 
- 
- body{
-      height: 100vh;
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Lospichulos - Inicio</title>
+  <link rel="stylesheet" href="Css/sesion.css">
+  <link rel="img" href="img/pichulos venta de stock.png">
+  <link rel="icon" href="img/pichulos venta de stock.png">
+  <link rel="img" href="img/pngfondo.png">
+</head>       
+<body>
+
+  <main class="login-box">
+
+    <section class="logo">
+
+      <div class="icon"><img src="img/pichulos venta de stock.png" alt="logo"></div>
+
+    <p>Bienvenido a Los Pichulos</p>
+
+    </section>
+
+    <form>
+
+      <label>Correo electrónico</label>
+
+      <input 
+      type="email" 
+      placeholder="ejemplo@gmail.com"
+      required>
+
+      <label>Contraseña</label>
+
+      <input 
+      type="password"
+      placeholder="********"
+      required>
+
+      <button onclick="window.location.href='indexx.html';" class="btn">
+        Iniciar sesión
       
-      background-size: cover;
+      </button>
+
+    </form>
+
+    <section class="extra">
+
+      <p>¿Olvidaste tu contraseña?</p>
+
+      <a href="#">Recuperar acceso</a>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+
+<!-- Estilos CSS para el diseño de la página de inicio de sesión -->
+ <!--
+<style>
+    body{
+      height: 100vh;
+      background: #2b2b2b;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -12,7 +73,7 @@
 
     .login-box{
       width: 380px;
-      background: #5e340450;
+      background: #2b2b2b;
       padding: 40px;
       border-radius: 20px;
       text-align: center;
@@ -116,4 +177,5 @@
   }
 
 }
-    
+</style>
+-->

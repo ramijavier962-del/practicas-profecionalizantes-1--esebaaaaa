@@ -10,7 +10,7 @@
 
     body{
       display: flex;
-   
+    
     }
 
    
@@ -26,7 +26,6 @@
     .logo{
       text-align: center;
       margin-bottom: 40px;
-      
     }
     .logo img{
       width: 100px;
@@ -66,7 +65,7 @@
       color: inherit;
     }
 
-   
+    
 
     .main{
       flex: 1;
@@ -98,7 +97,7 @@
       background: #ddb000;
     }
 
-  
+
 
     .cards{
       display: grid;
@@ -152,7 +151,6 @@
       border-bottom: 1px solid #ddd;
     }
 
-    
 
     form input{
       width: 100%;

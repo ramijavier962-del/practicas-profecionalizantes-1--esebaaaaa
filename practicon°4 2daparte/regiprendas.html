@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/elstilo.css ">
+    <link rel="stylesheet" href="Css/prendas.css ">
     <link rel="icon" href="img/pichulos venta de stock.png">
     <link rel="stylesheet" href="css/video.css">
     
@@ -11,18 +11,17 @@
 </head>
 
 <body>
-  <video autoplay muted loop id="video-fondo">
+
+<video autoplay muted loop id="video-fondo">
       <source src="video/video mano ropa.mp4" type="video/mp4">
   </video>
 
   <div class="overlay"></div>
-
   <nav class="sidebar">
 
     <header class="logo">
-    
-      <img src="img/pichulita.png" alt="imagen logo">
-    
+<img src="img/pichulita.png" alt="imagen logo">
+
       <h1>lospichulos</h1>
       <p>Stock de ropa</p>
     </header>
@@ -38,7 +37,7 @@
 
   </nav>
 
-  
+ 
 
   <main class="main">
 
@@ -47,75 +46,56 @@
 
     </header>
 
-  
 
-    <section class="cards">
 
-      <article class="card">
-        <h3>Ventas del día</h3>
-        <p>$125.000</p>
-      </article>
+    <section class="table-box">
 
-      <article class="card">
-        <h3>Productos vendidos</h3>
-        <p>48</p>
-      </article>
 
-      <article class="card">
-        <h3>Stock bajo</h3>
-        <p>7</p>
-      </article>
+      <header>
+        <h3>Registrar nueva prenda</h3>
+      </header>
+      <br>
+      <form>
 
-    </section>
 
-<section class="table-box">
+        <label>Nombre de la prenda</label>
+        <input type="text"
+        placeholder="Ej:  Pantalones"
+        required>
+        
+        <label>Cantidad</label>
+        <input type="number"
+        placeholder="Ej: 10"
+        required>
 
-<header>
-   <h3>Últimas prendas registradas</h3>
-   </header>
+        <label>Talles</label>
+        <input type="text"
+        placeholder="Ej: M"
+        required>
 
-<table>
+        <label>Marca</label>
+        <input type="text"
+        placeholder="Ej: Ñike,crico"
+        required>
 
-<thead>
-    <tr>
-  <th>Prenda</th>
-  <th>Talle</th>
-  <th>Precio</th>
-    <th>Stock</th>
-    </tr>
-    </thead>
+        <label>Precio Unitario</label>
+        <input type="number"
+        placeholder="Ej: 15000"
+        required>
 
-  <tbody>
 
-  <tr>
 
- <td>Remera Oversize</td>
- <td>XXL</td>
-  <td>$15.000</td>
- <td>12</td>
- </tr>
 
- <tr>
- <td>Buzo Negro</td>
-  <td>L</td>
- <td>$28.000</td>
- <td>5</td>
- </tr>
+        <button class="btn" type="submit">
+          Guardar prendas
+        </button>
 
-  <tr>
-  <td>Jean Cargo</td>
- <td>42</td>
-  <td>$35.000</td>
-   <td>8</td>
- </tr>
 
- </tbody>
+      </form>
 
-  </table>
 
     </section>
 
-   
   </main>
 
 </body>
