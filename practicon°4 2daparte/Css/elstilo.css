@@ -168,3 +168,32 @@
       margin-top: 20px;
       color: #666;
     }
+    @media (max-width: 768px ){
+
+  .login-box{
+    width: 90%;
+    padding: 25px;
+  }
+
+  .icon img{
+    width: 110px;
+  }
+
+  .logo h1{
+    font-size: 30px;
+  }
+
+  .logo p{
+    font-size: 13px;
+  }
+
+  input{
+    padding: 10px;
+  }
+
+  .btn{
+    padding: 10px;
+  }
+
+}
+  
